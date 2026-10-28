@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b18">
+
+    <title>Pael Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background -->
+    <div class="background">
+        <div class="aurora aurora-one"></div>
+        <div class="aurora aurora-two"></div>
+        <div class="aurora aurora-three"></div>
+        <div class="noise"></div>
+    </div>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <header class="navbar glass">
+        <a href="#home" class="logo">
+            <span class="logo-icon">◈</span>
+            <span>Pael<span class="logo-light">Website</span></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#experience" class="nav-link">Experience</a>
+        </nav>
+
+        <a href="#experience" class="nav-button">
+            Explore <span>↗</span>
+        </a>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Buka menu navigasi"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <div class="eyebrow reveal">
+                    <span class="status-dot"></span>
+                    DESIGN by PAEL
+                </div>
+
+                <h1 class="hero-title reveal">
+                    PAELic<br>
+                    <span class="gradient-text">space.</span>
+                </h1>
+
+                <p class="hero-description reveal">
+                    Diam adalah bahasa elegan
+                    yang tak semua orang mengerti.
+                </p>
+
+                <!-- Google search -->
+                <form
+                    class="search-box glass reveal"
+                    id="searchForm"
+                    action="https://www.google.com/search"
+                    method="GET"
+                    target="_blank"
+                >
+                    <span class="search-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                            <path d="m16 16 5 5"></path>
+                        </svg>
+                    </span>
+
+                    <input
+                        type="search"
+                        name="q"
+                        id="searchInput"
+                        placeholder="Cari sesuatu di Google..."
+                        autocomplete="off"
+                        aria-label="Cari di Google"
+                    >
+
+                    <button type="submit" class="search-button">
+                        Cari <span>↗</span>
+                    </button>
+                </form>
+
+                <div class="search-suggestions reveal">
+                    <span>Popular:</span>
+                    <button type="button" data-query="Program AI terbaru">
+                        ChatGPT
+                    </button>
+                    <button type="button" data-query="Teknologi AI terbaru">
+                        Gemini AI
+                    </button>
+                    <button type="button" data-query="Website design inspiration">
+                        Design
+                    </button>
+                </div>
+
+                <div class="hero-actions reveal">
+                    <a href="#features" class="button-primary">
+                        Explore experience <span>↘</span>
+                    </a>
+
+                    <a href="#experience" class="button-secondary">
+                        Discover more
+                    </a>
+                </div>
+
+                <div class="hero-note reveal">
+                    <span class="note-line"></span>
+                    <span>Designed by PAEL.</span>
+                </div>
+            </div>
+
+            <!-- Floating glass visual -->
+            <div class="hero-visual reveal" id="heroVisual">
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+                <div class="visual-orbit orbit-three"></div>
+
+                <div class="visual-glow"></div>
+
+                <div class="glass-sphere" id="glassSphere">
+                    <div class="sphere-highlight"></div>
+                    <div class="sphere-inner"></div>
+                    <div class="sphere-shine"></div>
+                    <div class="sphere-reflection"></div>
+
+                    <div class="sphere-symbol">◈</div>
+                </div>
+
+                <div class="floating-card floating-card-top glass">
+                    <span class="mini-icon purple">✦</span>
+                    <div>
+                        <strong>Next Generasi</strong>
+                        <small>in the end.</small>
+                    </div>
+                    <span class="live-indicator"></span>
+                </div>
+
+                <div class="floating-card floating-card-bottom glass">
+                    <div class="wave-icon">
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                        <span></span>
+                    </div>
+
+                    <div>
+                        <strong>Bernaung</strong>
+                        <small>Fav Songs</small>
+                    </div>
+                </div>
+
+                <div class="visual-label label-left">
+                    <span>01</span> TRANSPARAN
+                </div>
+
+                <div class="visual-label label-right">
+                    DEPTH <span>∞</span>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+                <span class="hero-bottom-right">01 / 03</span>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="section features-section" id="features">
+            <div class="section-heading reveal">
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    FEATURES
+                </div>
+
+                <h2>
+                    Less interface.<br>
+                    <span class="gradient-text">More experience.</span>
+                </h2>
+
+                <p>
+                    Setiap detail dirancang agar terasa ringan,
+                    responsif, dan menyatu dengan pengalaman digital.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card glass reveal">
+                    <div class="card-top">
+                        <span class="feature-number">01</span>
+                        <span class="feature-arrow">↗</span>
+                    </div>
+
+                    <div class="feature-icon icon-purple">
+                        <svg viewBox="0 0 48 48">
+                            <path d="M24 4 44 24 24 44 4 24Z"></path>
+                            <path d="m24 12 12 12-12 12-12-12Z"></path>
+                        </svg>
+                    </div>
+
+                    <h3>Liquid Surface</h3>
+
+                    <p>
+                        Lapisan kaca transparan dengan pantulan cahaya
+                        dan kedalaman visual yang elegan.
+                    </p>
+
+                    <div class="card-bottom">
+                        <span>TRANSLUCENT DESIGN</span>
+                        <span>✦</span>
+                    </div>
+                </article>
+
+                <article class="feature-card glass reveal">
+                    <div class="card-top">
+                        <span class="feature-number">02</span>
+                        <span class="feature-arrow">↗</span>
+                    </div>
+
+                    <div class="feature-icon icon-blue">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="17"></circle>
+                            <path d="M24 7v34M7 24h34"></path>
+                            <path d="m12 12 24 24M36 12 12 36"></path>
+                        </svg>
+                    </div>
+
+                    <h3>Fluid Motion</h3>
+
+                    <p>
+                        Animasi yang mengikuti gerakan pengguna
+                        dengan transisi lembut dan natural.
+                    </p>
+
+                    <div class="card-bottom">
+                        <span>SMOOTH INTERACTION</span>
+                        <span>✦</span>
+                    </div>
+                </article>
+
+                <article class="feature-card glass reveal">
+                    <div class="card-top">
+                        <span class="feature-number">03</span>
+                        <span class="feature-arrow">↗</span>
+                    </div>
+
+                    <div class="feature-icon icon-pink">
+                        <svg viewBox="0 0 48 48">
+                            <path d="M24 4 29 18 44 24 29 30 24 44 19 30 4 24 19 18Z"></path>
+                            <path d="m37 4 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"></path>
+                        </svg>
+                    </div>
+
+                    <h3>Smart Aesthetics</h3>
+
+                    <p>
+                        Perpaduan warna, cahaya, dan tipografi
+                        untuk tampilan modern yang berkarakter.
+                    </p>
+
+                    <div class="card-bottom">
+                        <span>MINIMAL BY DESIGN</span>
+                        <span>✦</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section experience-section" id="experience">
+            <div class="experience-panel glass reveal">
+                <div class="experience-copy">
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        A NEW PERSPECTIVE
+                    </div>
+
+                    <h2>
+                        Technology<br>
+                        meets <span class="gradient-text">emotion.</span>
+                    </h2>
+
+                    <p>
+                        Bukan sekadar tampilan. Ini adalah cara baru
+                        untuk merasakan desain digital: transparan,
+                        hidup, dan penuh detail.
+                    </p>
+
+                    <button class="button-primary" id="magicButton">
+                        Activate the magic <span>✦</span>
+                    </button>
+                </div>
+
+                <div class="experience-art">
+                    <div class="art-ring ring-one"></div>
+                    <div class="art-ring ring-two"></div>
+                    <div class="art-ring ring-three"></div>
+
+                    <div class="art-core">
+                        <span>✦</span>
+                    </div>
+
+                    <div class="art-caption">
+                        <span class="status-dot"></span>
+                        SYSTEM ONLINE
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <a href="#home" class="logo">
+                <span class="logo-icon">◈</span>
+                <span>Pael<span class="logo-light">Website</span></span>
+            </a>
+
+            <p>Crafted with hand. Designed for tomorrow.</p>
+
+            <a href="#home" class="back-top">
+                Back to top ↑
+            </a>
+        </footer>
+    </main>
+
+    <!-- Dark / Light Mode Toggle -->
+<button
+    class="theme-toggle glass"
+    id="themeToggle"
+    type="button"
+    aria-label="Aktifkan light mode"
+    title="Ganti tema"
+>
+    <span class="theme-icon" id="themeIcon">☀</span>
+    <span class="theme-label" id="themeLabel">Light</span>
+</button>
+
+    <!-- Toast notification -->
+    <div class="toast glass" id="toast" role="status" aria-live="polite">
+        <span class="toast-icon">✦</span>
+        <span id="toastMessage">Magic activated!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
